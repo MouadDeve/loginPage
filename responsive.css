@@ -1,0 +1,143 @@
+@media screen and (max-width:425px) {
+    .sec2{
+        height: 1000px;
+        width: 425px;
+        position: relative;
+        top: -90px;
+    }
+    .p2{
+        width: 400px;
+    }
+    .login{
+        position: relative;
+        left: 12px;
+        top: -20px;
+    }
+    .SignUp{
+        position: relative;
+        top: -510px;
+        left: 412px;
+    }
+    .div1{
+        position: relative;
+        left: -80px;
+        border: solid;
+        width: 425px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 35px;
+        top: -63px;
+        display: none;
+        background-color: rgb(80,4,55);
+        background: linear-gradient(27deg, rgba(80,4,55,0.9724264705882353) 48%, rgba(64,0,255,0.9444152661064426) 100%);
+    }
+    .p1{
+        width: 425px;
+        border: 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    .div2{
+        position: relative;
+        left: 130px;
+        top: -70px;
+    }
+    #navbar{
+        display: block;
+        color: white;
+        font-size: 30px;
+        width: min-content;
+        padding: 15px 0 10px 30px;
+    }
+    #close{
+        position: relative;
+        left: 395px;
+        top: 270px;
+        color: white;
+        font-size: 35px;
+        width: min-content;
+        display: none;
+    }
+    .p1:hover::after{
+        opacity: 0;
+    }
+  
+}
+@media screen and (max-width:362px){
+    #icn1{
+        position: relative;
+        top: -24px;
+        left: 156px;
+    }
+    .div2{
+        height: 30px;
+    }
+}
+@media screen and  (min-width:426px) and (max-width:768px){
+    .sec2{
+        width: 768px;
+        display: block;
+        margin: auto;
+    }
+    body {
+        height: 100vh;
+    }
+    .login{
+        position: relative;
+        left: 431px;
+        width: 330px;
+    }
+    .SignUp{
+        display: block;
+        left: 830px;
+        width: 330px;
+    }
+    .div2{
+        position: relative;
+        left: -500px;
+    }
+    .p2{
+        width: 400px;
+    }
+    #icn1{
+        position: relative;
+        top: -24px;
+        left: 156px;
+    }
+    .div2{
+        height: 30px;
+    }
+}
+@media screen and  (min-width:769px) and (max-width:1024px){
+    .sec2{
+        width: 900px;
+        left: 20px;
+    }
+    body {
+        height: 100vh;
+    }
+    .login{
+        position: relative;
+        left: 499px;
+    }
+    .SignUp{
+        display: block;
+        left: 899px;
+    }
+    .div2{
+        position: relative;
+        left: -300px;
+        height: 30px;
+    }
+    .p2{
+        width: 400px;
+    }
+    #icn1{
+        position: relative;
+        top: -24px;
+        left: 156px;
+    }
+}

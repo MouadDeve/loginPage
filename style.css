@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color: white;
+}
+.p1{
+    cursor: pointer;
+}
+.p1::after{
+    content: '';
+    width: 100%;
+    display: block;
+    background-color: white;
+    height: 1px;
+    transform: translateY(10px);
+    opacity: 0;
+}
+.p1:hover::after{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    padding: 30px 80px 80px;
+}
+.inpt1{
+    height: 30px;
+    width: 180px;
+    border: none;
+    background: none;
+    color: white;
+}
+.inpt1::placeholder{
+    position: relative;
+    left: 5px;
+    color: white;
+}
+.inpt1:focus{outline: none;}
+.div2{
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: white;
+}
+#icn1{
+    position: relative;
+    left: -10px;
+    color: white;
+    cursor: pointer;
+}
+.h11, .h12, .icons{color: white;}
+.p2{
+    color: white;
+    width: 500px;
+}
+.sec2{
+    border: solid white;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    top: -10px;
+    margin: 0 auto;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.texts{
+    width: 600px;
+    height: 500px;
+}
+.div4{
+    position: relative;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 25px;
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    padding-left: 25px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.h12{font-size: 35px;}
+.span1{font-size: 25px;}
+.p2{font-weight: lighter;color: rgba(255, 255, 255, 0.747);}
+.icons{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    cursor: pointer;
+}
+#fire{font-size: 30px;}
+.login{
+    width: 394px;
+    height: 493px;
+    position: relative;
+    left: 600px;
+    top: -500px;
+    padding-top: 30px;
+    backdrop-filter: blur(20px);
+    transition: 0.2s;
+}
+.SignUp{
+    position: relative;
+    left: 1000px;
+    top: -993px;
+    width: 394px;
+    height: 493px;
+    backdrop-filter: blur(20px);
+    padding-top: 20px;
+    transition: 0.2s;
+    transition-delay: 0.4s;
+}
+.h13{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 25px;
+    font-weight: bold;
+}
+.lastsec{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.inpt-email{
+    border: none;
+    background: none;
+    color: white;
+}
+.inpt-email:focus{outline: none;}
+.inpt-email::placeholder{color: white;}
+.div-email{
+    border: solid white 2px;
+    height: 35px;
+    width: 290px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#icon-email{
+    position: relative;
+    left: 95px;
+}
+.inpt-pswrd:focus{outline: none;}
+.inpt-pswrd::placeholder{color: white;}
+.div-pswrd{
+    border: solid white 2px;
+    height:35px;
+    width: 290px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#icon-password{
+    position: relative;
+    left: 95px;
+}
+.inpt-pswrd{
+    border: none;
+    background: none;
+    color: white;
+}
+.divchek{
+    display: flex;
+    flex-direction: row;
+}
+.p3{
+    padding-right: 50px;
+    position: relative;
+    left: 5px;
+    font-size: 15px;
+}
+.p4{font-size: 15px;cursor: pointer;text-decoration: none;}
+.p4:hover{text-decoration: underline;}
+.btn1{
+    width: 290px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #c4103d;
+    color: white;
+    cursor: pointer;
+}
+.span2{cursor: pointer;}
+.span2:hover{text-decoration: underline;}
+.chek{cursor: pointer;}
+#icn2{transition: 0.5s;}
+#icn2:hover{transform: scale(1.1, 1.1);}
+#navbar{
+    display: none;
+}
+#close{
+    display: none;
+}

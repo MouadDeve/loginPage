@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <i class="fa-solid fa-bars" id="navbar"></i>
+    <i class="fa-solid fa-xmark" id="close"></i>
+    <section class="sec1">
+        <div class="div1">
+            <p class="p1">Home</p>
+            <p class="p1">About</p>
+            <p class="p1">Services</p>
+            <p class="p1">Contact</p>
+        </div>
+        <div class="div2">
+            <input type="search" class="inpt1" placeholder="Search...">
+            <i class="fa-solid fa-magnifying-glass" id="icn1"></i>
+        </div>
+    </section> 
+    <div class="sec2">
+        <div class="texts">
+            <div class="div3">
+                <i class="fa-brands fa-gripfire" id="fire" style="color: white;"></i>
+                <h1 class="h11">Codehal</h1>
+            </div>    
+            <div class="div4">
+                <h1 class="h12">Welcome!<br><span class="span1">To Our New Website.</span></h1>
+                <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna  aliqua.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-linkedin" id="icn2"></i>
+                    <i class="fa-brands fa-facebook" id="icn2"></i>
+                    <i class="fa-brands fa-instagram" id="icn2"></i>
+                    <i class="fa-brands fa-twitter" id="icn2"></i>
+                </div>
+            </div>
+        </div>
+        
+        <form class="login" action="#">
+            <h1 class="h13">Sign In</h1>
+            <section class="lastsec">
+            <div class="div-email">
+                <input type="email" class="inpt-email" placeholder="Email" required>
+                <i class="fa-solid fa-envelope" style="color: white;" id="icon-email"></i>
+            </div>
+            <div class="div-pswrd">
+                <input type="password" class="inpt-pswrd" placeholder="Password" required>
+                <i class="fa-solid fa-lock" style="color: white;" id="icon-password"></i>
+            </div>
+            <div class="divchek">
+                <input type="checkbox" class="chek" required>
+                <p class="p3" style="color: white;">Remember me</p>
+                <p class="p4" style="color: rgba(255, 255, 255, 0.822);">Forgot password?</p>
+            </div>    
+            <button class="btn1">Sign In</button>
+            <p class="p5"  style="color: rgba(255, 255, 255, 0.87);">Don't have an account? <span class="span2" style="color: white;" id="SignUp"> Sign up</span></p>
+            </section>
+        </form>
+        <form class="SignUp" action="#">
+            <h1 class="h13">Sign Up</h1>
+            <section class="lastsec">
+            <div class="div-email">
+                <input type="text" class="inpt-email" placeholder="Name" required>
+                <i class="fa-solid fa-user" style="color: white;" id="icon-email"></i>
+            </div>
+            <div class="div-email">
+                <input type="email" class="inpt-email" placeholder="Email" required>
+                <i class="fa-solid fa-envelope" style="color: white;" id="icon-email"></i>
+            </div>
+            <div class="div-pswrd">
+                <input type="password" class="inpt-pswrd" placeholder="Password" required>
+                <i class="fa-solid fa-lock" style="color: white;" id="icon-password"></i>
+            </div>
+            <div class="divchek">
+                <input type="checkbox" class="chek" required>
+                <p class="p3" style="color: white;">I agree to the terms & conditions</p>
+            </div>    
+            <button class="btn1">Sign Up</button>
+            <p class="p5"  style="color: rgba(255, 255, 255, 0.87);">Already have an account? <span class="span2" style="color: white;" id="SignIn"> Sign in</span></p>
+            </section>
+        </form>
+        
+    </section>
+</body>
+<script src="main.js"></script>
+</html>
